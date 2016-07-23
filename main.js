@@ -15,24 +15,13 @@ var endingCount = y.length;
 
 iframeDidLoad();
 
-
-
-
 function iframeDidLoad() {
-	//increment i
-
-
-
-
 	if (i != startingCount) {
 		var noTarget = document.getElementById(("no-target" + (i-1)));
 		if (noTarget != null) {
 			noTarget.remove();
 		}
-	
 	}
-
-
 	if (i < y.length - 1 && i < endingCount) {
 		var name = y[i].getElementsByClassName("fwb")[0].innerHTML;
 		var links = y[i].getElementsByTagName('a');
@@ -55,21 +44,19 @@ function iframeDidLoad() {
 	else {
 		console.log("just did it! tracks from number:" + startingCount + " to " + endingCount );
 	}
-
 }
 
-
 function postForm(name, link, counter) {
-        var entryValue = name.replace(" ",'%20').replace("&amp;","%26").replace('"', '%22').replace('=', '%3D').replace(';', '%3B').replace('?', '%3F');
-        var linkValue = link.replace(" ",'%20').replace("&amp;","%26").replace('"', '%22').replace('=', '%3D').replace(';', '%3B').replace('?', '%3F');
-        var submitRef = '&submit=Submit';
-        var submitURL = (googleFormsURL + fileEntryNumber + "=" + entryValue + "&" + linkEntryNumber + "=" + linkValue + submitRef);
-        var blankiFrame = document.createElement("iframe");
-   		blankiFrame.id  = 'no-target' + counter;
-        blankiFrame.src = submitURL;
-        console.log("element " + counter + " submitURL is " + submitURL);
-        blankiFrame.setAttribute("onLoad", "iframeDidLoad();");
-        document.body.appendChild(blankiFrame);
-        return false;
-    }
+    var entryValue = name.replace(" ",'%20').replace("&amp;","%26").replace('"', '%22').replace('=', '%3D').replace(';', '%3B').replace('?', '%3F');
+    var linkValue = link.replace(" ",'%20').replace("&amp;","%26").replace('"', '%22').replace('=', '%3D').replace(';', '%3B').replace('?', '%3F');
+    var submitRef = '&submit=Submit';
+	var submitURL = (googleFormsURL + fileEntryNumber + "=" + entryValue + "&" + linkEntryNumber + "=" + linkValue + submitRef);
+	var blankiFrame = document.createElement("iframe");
+	blankiFrame.id  = 'no-target' + counter;
+	blankiFrame.src = submitURL;
+	console.log("element " + counter + " submitURL is " + submitURL);
+	blankiFrame.setAttribute("onLoad", "iframeDidLoad();");
+	document.body.appendChild(blankiFrame);
+	return false;
+}
 
