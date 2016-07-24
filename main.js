@@ -73,8 +73,8 @@ function soundcloudIframeDidLoad(name, link, counter) {
 }
 
 function postForm(name, link, counter) {
-    var entryValue = name.replace(" ",'%20').replace("&amp;","%26").replace('"', '%22').replace('=', '%3D').replace(';', '%3B').replace('?', '%3F');
-    var linkValue = link.replace(" ",'%20').replace("&amp;","%26").replace('"', '%22').replace('=', '%3D').replace(';', '%3B').replace('?', '%3F');
+    var entryValue = name.replace(" ",'%20').replace("&amp;","%26").replace('"', '%22').replace('=', '%3D').replace(';', '%3B').replace('?', '%3F').replace('#','%23');
+    var linkValue = link.replace(" ",'%20').replace("&amp;","%26").replace('"', '%22').replace('=', '%3D').replace(';', '%3B').replace('?', '%3F').replace('#','%23');
     var submitRef = '&submit=Submit';
 	var submitURL = (googleFormsURL + fileEntryNumber + "=" + entryValue + "&" + linkEntryNumber + "=" + linkValue + submitRef);
 	var blankiFrame = document.createElement("iframe");
