@@ -2,7 +2,7 @@
 Looking for old liked songs on soundcloud that have been deleted? This script iterates through your facebook history and fetches all previously liked songs.
 
 
-*TO USE:*<br>
+**TO USE:**<br>
 1. Create a google forms sheet with two short question response (one for track name, one for the URL). <br>
 2. Go to "view form" (top right)<br>
 3. Right click the form --> Inspect. Ctrl+F "entry"<br>
