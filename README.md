@@ -21,6 +21,8 @@ Looking for old liked songs on soundcloud that have been deleted? This script it
 15. it'll generate a file containing all deleted tracks. If you get fed up and its too slow, press ctrl+c to exit it (sorry D:)<br>
 <br>
 p.s. I've included a sample of my tracks and deleted tracks for y'all to see.
+
 p.p.s. i realize this is kind of slow. SORRY D: - but hey, at least you get all your old tracks back :)?
+
 p.p.p.s. i'm a shitty js and python developer (if you could even call me a developer). Instead i make iPhone apps. Support me by downloading http://okeylabs.com 
 
