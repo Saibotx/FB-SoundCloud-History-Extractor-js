@@ -18,7 +18,9 @@ Looking for old liked songs on soundcloud that have been deleted? This script it
 12. Go back to your google form, click on responses (dont close the facebook tab or page. It'll run until it inputs all your previous activity into the google sheet).<br>
 13. Download your responses as a CSV. save it as tracks.csv in the same folder as the .py file (this directory)<br>
 14. Now run the .py file (for mac, open terminal, type python, click & drag the .py file into the terminal window, hit enter)<br>
-15. it'll generate a file containing all deleted tracks.<br>
+15. it'll generate a file containing all deleted tracks. If you get fed up and its too slow, press ctrl+c to exit it (sorry D:)<br>
 <br>
-p.s. i'm a shitty js and python developer (if you could even call me a developer). Instead i make iPhone apps. Support me by downloading http://okeylabs.com 
+p.s. I've included a sample of my tracks and deleted tracks for y'all to see.
+p.p.s. i realize this is kind of slow. SORRY D: - but hey, at least you get all your old tracks back :)?
+p.p.p.s. i'm a shitty js and python developer (if you could even call me a developer). Instead i make iPhone apps. Support me by downloading http://okeylabs.com 
 
