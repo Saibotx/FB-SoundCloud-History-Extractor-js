@@ -13,7 +13,7 @@ Looking for old liked songs on soundcloud that have been deleted? This script it
 8. On the left, filter by Soundcloud activity FB activity log.<br>
 8. keep scrolling down until your entire soundcloud activity history is there on that one page<br>
 9. Rightclick page --> Inspect (for chrome). Click Console<br>
-10. There will be a huge STOP warning telling you not to run scripts here. Ignore this because you're a bad ass mofo.<br>
+10. There will be a huge STOP warning telling you not to run scripts here. Ignore this.<br>
 11. Copy + Paste entire J.S. text into browser console and it'll auto fill out your google form :)<br>
 12. Go back to your google form, click on responses (dont close the facebook tab or page. It'll run until it inputs all your previous activity into the google sheet).<br>
 13. Download your responses as a CSV. save it as tracks.csv in the same folder as the .py file (this directory)<br>
@@ -22,7 +22,5 @@ Looking for old liked songs on soundcloud that have been deleted? This script it
 <br>
 p.s. I've included a sample of my tracks and deleted tracks for y'all to see.
 
-p.p.s. i realize this is kind of slow. SORRY D: - but hey, at least you get all your old tracks back :)?
-
-p.p.p.s. i'm a shitty js and python developer (if you could even call me a developer). Instead i make iPhone apps. Support me by downloading http://okeylabs.com 
+p.p.s. I wish this was more automated, but i haven't gotten there yet.
 
